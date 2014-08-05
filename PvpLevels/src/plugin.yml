@@ -1,0 +1,15 @@
+name: PvpLevels
+version: 2.0.0
+main: com.lenis0012.bukkit.pvp.PvpLevels
+description: Better pvp in minecraft
+author: lenis0012, supermaxman
+commands:
+  kdr:
+    description: PvpLevels KDR command.
+    usage: /kdr
+  level:
+    description: Change a player level.
+    usage: /level <add/remove/set> <player> <amount>
+  plreload:
+    description: Reload the PvpLevels config.
+    usage: /plreload
